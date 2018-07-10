@@ -1,0 +1,10 @@
+.catalog-list-box {
+    padding: 30rpx;
+}
+
+.catalog-list {
+    display: block;
+    color: #3C76FF;
+    list-style: circle;
+    padding: 5rpx 0;
+}

@@ -1,0 +1,11 @@
+.doc-list {
+    display: block;
+    margin: 30rpx 20rpx;
+    height: 160rpx;
+    line-height: 160rpx;
+    background: #3C76FF;
+    color: #fff;
+    font-size: 36rpx;
+    text-align: center;
+    border-radius: 10rpx;
+}

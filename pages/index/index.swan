@@ -1,0 +1,3 @@
+<navigator url="../catalog/catalog?url={{item.url}}&title={{item.title}}" class="doc-list" s-for="item,index in docList">
+    {{item.title}}
+</navigator>

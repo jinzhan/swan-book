@@ -1,0 +1,7 @@
+<!--<rich-text class="content" nodes="{{content}}" bindtap="render"></rich-text>-->
+
+<view class="catalog-list-box">
+    <navigator url="../doc/doc?url={{item.attr.href|encodeURIComponent}}&baseurl={{baseUrl|encodeURIComponent}}" class="catalog-list" s-for="item,index in catalog">
+        {{item.child[0].text}}
+    </navigator>
+</view>

@@ -1,0 +1,22 @@
+{
+    "debug": false,
+    "pages": [
+        "pages/index/index",
+        "pages/doc/doc",
+        "pages/catalog/catalog"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "开发者之家",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "black",
+        "enablePullDownRefresh": false,
+        "backgroundColor": "#ecebee"
+    },
+    "networkTimeout": {
+        "request": 30000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    }
+}
