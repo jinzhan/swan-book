@@ -30,7 +30,7 @@ Page({
             title: option.title
         });
         this.setData({
-            baseUrl: url
+            baseUrl: encodeURIComponent(url)
         });
         swan.request({
             url,
