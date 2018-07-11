@@ -7,7 +7,7 @@
     ],
     "window": {
         "navigationBarBackgroundColor": "#ffffff",
-        "navigationBarTitleText": "开发者之家",
+        "navigationBarTitleText": "Dash",
         "navigationBarTextStyle": "black",
         "backgroundTextStyle": "black",
         "enablePullDownRefresh": false,

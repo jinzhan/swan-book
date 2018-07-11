@@ -1,6 +1,5 @@
-import {ES6, config} from '../../utils/config';
+import {config} from '../../utils/config';
 
-/* global Page,swan*/
 Page({
     data: {
         docList: []
@@ -14,7 +13,7 @@ Page({
             data: {_},
             success: res => {
                 res.data.forEach((item, index) => {
-                   item.title = encodeURIComponent(item.title);
+                   item.title = item.title;
                    item.url = encodeURIComponent(item.url);
                 });
                 this.setData({

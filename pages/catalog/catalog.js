@@ -26,6 +26,9 @@ Page({
 
     onLoad(option) {
         const url = option.url;
+        swan.setNavigationBarTitle({
+            title: option.title
+        });
         this.setData({
             baseUrl: url
         });

@@ -2,5 +2,13 @@
   {
     "title": "ECMAScript 6入门",
     "url": "https://raw.githubusercontent.com/jinzhan/es6tutorial/gh-pages/SUMMARY.md"
+  },
+  {
+    "title": "Koa2进阶学习笔记",
+    "url": "https://raw.githubusercontent.com/chenshenhai/koa2-note/master/SUMMARY.md"
+  },
+  {
+    "title": "前端杂记",
+    "url": "https://raw.githubusercontent.com/jinzhan/koa2-handbook/master/SUMMARY.md"
   }
 ]
