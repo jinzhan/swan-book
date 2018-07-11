@@ -55,8 +55,6 @@ Page({
     },
 
     render(e) {
-        swan.showModal({
-            content: JSON.stringify(e)
-        })
+        // bindtab
     }
 });
